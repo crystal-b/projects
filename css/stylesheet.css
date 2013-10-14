@@ -139,17 +139,41 @@ ul {
 
 /*** About ***/
 
-#about strong {
-	color: red;
+#about li h3, h5{
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+}
+
+#about li{
+	font-family: Garamond, serif;
+	font-size: 16px;
+
 }
 
 #about li img{
 	max-width: 100%;
 	float: left;
 	vertical-align: middle;
-	padding: 1.5rem 4rem 14.5rem 4rem;
-	background-color: #b3b3b3;
+	padding: 1.5rem 0 1.5rem 4rem;
+	/*padding: 1.5rem 4rem 14rem 4rem;
+	background-color: #b3b3b3;*/
 }
+
+#profile {
+	background-color: #b3b3b3;
+	padding-bottom: 5rem;
+}
+
+.caption {
+	padding: 8rem 4rem 1rem 4rem;
+	font-family: Arial, Verdana, Helvetica, sans-serif;
+	font-size: 14px;
+}
+
+#profile2 {
+	padding-top: .7rem;
+}
+
+/*** Craft ***/
 
 #headline {
 	background-color: gray;
@@ -157,8 +181,6 @@ ul {
 	padding-bottom: 1.5rem;
 	padding-left: 1rem;
 }
-
-/*** Craft ***/
 
 #video {
 	background-color: #000000;
