@@ -169,8 +169,26 @@ ul {
 	text-decoration: none;
 	font-family: Garamond, serif;
 	font-size: 16px;
+	color: #000000;
 }
 
+#gallery a:hover{
+	background-color: #666666;
+	color: #FFFFFF;
+	font-style: bold;
+	padding: .3rem .3rem .3rem .3rem;
+}
+
+#gallery a:active{
+	background-color: #000000;
+	color: #FFFFFF;
+	font-style: bold;
+	padding: .3rem .3rem .3rem .3rem;
+}
+
+#gallery img {
+	padding: 0 2rem 4rem 0;
+}
 
 
 /*** Craft ***/
