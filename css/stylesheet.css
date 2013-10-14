@@ -2,6 +2,8 @@ ul {
 	list-style-type: none;
 }
 
+/*** Header ***/
+
 #header {
 	margin: 0;
 	background-color: #FFFFFF;
@@ -35,11 +37,13 @@ ul {
 	font: normal 12px Arial, Verdana, Helvetica, sans-serif;
 }
 
+/*** Top Nav ***/
+
 #topnav {
 	width: 100%;
 	height: 52px;
 	margin: 0;
-	background-color: #366b82;
+	background-color: #000000;
 	/* padding-top: 1rem;
 	padding-bottom: 1.5rem; */
 	z-index: 99;
@@ -52,7 +56,6 @@ ul {
 	padding: 0;
 	margin: 0;
 	position: absolute;
-	border-right: 1px solid #FFFFFF;
 }
 
 .bar li {
@@ -64,20 +67,18 @@ ul {
 	font: normal bold 14px Arial, Verdana, Helvetica, sans-serif;
 	padding: 0;
 	margin: 0;
-	background-color: #366b82;
+	background-color: #000000;
 }
 
 .bar a {
 	padding: 18px 0;
-	border-left: 1px solid #FFFFFF;
-	border-right: 1px solid #F0F0F0;
 	text-decoration: none;
 	color: #FFFFFF;
 	display: block;
 }
 
 .bar li:hover, a:hover {
-	background-color: #54879d;
+	background-color: #4d4d4d;
 }
 
 .bar li ul {
@@ -92,20 +93,19 @@ ul {
 }
 
 .bar li ul li {
-	background-color: #54879d
+	background-color: #000000;
 }
 
 .bar li ul li a {
-	border-left: 1px solid #f0f0f0;
-	border-right: 1px solid #f0f0f0;
 	border-top: 1px solid #74a3b7;
 	border-bottom: 1px solid #f0f0f0;
 }
 
 .bar li ul li:hover {
-	background-color: #366b82;
+	background-color: #999999 !important;
 }
 
+/*** Index ***/
 
 #main_content {
 	background-color: #000000;
@@ -137,13 +137,18 @@ ul {
 	right: 5;
 }
 
+/*** About ***/
+
 #about strong {
 	color: red;
 }
 
 #about li img{
 	max-width: 100%;
-	padding: 1rem 0 0 3rem;
+	float: left;
+	vertical-align: middle;
+	padding: 1.5rem 4rem 14.5rem 4rem;
+	background-color: #b3b3b3;
 }
 
 #headline {
@@ -152,6 +157,22 @@ ul {
 	padding-bottom: 1.5rem;
 	padding-left: 1rem;
 }
+
+/*** Craft ***/
+
+#video {
+	background-color: #000000;
+	padding-top: 3rem;
+	padding-bottom: 2.5rem;
+}
+
+#headline2 {
+	background-color: #FFFFFF;
+	padding-top: 3rem;
+	padding-bottom: 1.5rem;
+}
+
+/*** Footer ***/
 
 #footer {
 	background-color: #f0f0f0;
