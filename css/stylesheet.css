@@ -146,6 +146,13 @@ ul {
 	padding: 1rem 0 0 3rem;
 }
 
+#headline {
+	background-color: gray;
+	padding-top: 2rem;
+	padding-bottom: 1.5rem;
+	padding-left: 1rem;
+}
+
 #footer {
 	background-color: #f0f0f0;
 	padding-top: 1rem;
