@@ -1,43 +1,43 @@
+/*** Global CSS ***/
+
 ul {
 	list-style-type: none;
 }
 
+
 /*** Header ***/
+
 
 #header {
 	margin: 0;
 	background-color: #FFFFFF;
 	padding: 1rem 0 0 0;
 }
-
 #header h1 {
 	text-align: left;
 	color: #000000;
 }
-
 #header h6 {
 	text-align: right;
 	color: #000000;
 }
-
 #header a {
 	text-decoration: none;
 }
-
 #header a:hover {
 	background-color: #FFFFFF;
 	color: #000000;
 }
-
 #header a:visited {
 	color: #000000;
 }
-
 #header li {
 	font: normal 12px Arial, Verdana, Helvetica, sans-serif;
 }
 
+
 /*** Top Nav ***/
+
 
 #topnav {
 	width: 100%;
@@ -49,15 +49,12 @@ ul {
 	z-index: 99;
 	position: relative;
 }
-
-
 .bar {
 	height: 50px;
 	padding: 0;
 	margin: 0;
 	position: absolute;
 }
-
 .bar li {
 	height: auto;
 	width: 140px;
@@ -69,54 +66,47 @@ ul {
 	margin: 0;
 	background-color: #000000;
 }
-
 .bar a {
 	padding: 18px 0;
 	text-decoration: none;
 	color: #FFFFFF;
 	display: block;
 }
-
 .bar li:hover, a:hover {
 	background-color: #4d4d4d;
 }
-
 .bar li ul {
 	display: none;
 	height: auto;
 	margin: 0;
 	padding: 0;
 }
-
 .bar li:hover ul {
 	display: block;
 }
-
 .bar li ul li {
 	background-color: #000000;
 }
-
 .bar li ul li a {
 	border-top: 1px solid #74a3b7;
 	border-bottom: 1px solid #f0f0f0;
 }
-
 .bar li ul li:hover {
 	background-color: #999999 !important;
 }
 
+
 /*** Index ***/
+
 
 #main_content {
 	background-color: #000000;
 	max-width: 100%
 }
-
 #main_content img {
 	background-color: #000000;
 	float: center;
 }
-
 .graphic-button {
 	text-align: center;
 	font-size: 1.3em;
@@ -130,50 +120,61 @@ ul {
 	border: 1px solid #000000;
 	background: #000000;
 }
-
 #graphic-button-watches {
 	position: absolute;
 	bottom: 5;
 	right: 5;
 }
 
+
 /*** About ***/
+
 
 #about li h3, h5{
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 }
-
 #about li{
 	font-family: Garamond, serif;
 	font-size: 16px;
-
 }
-
 #about li img{
 	max-width: 100%;
 	float: left;
 	vertical-align: middle;
 	padding: 1.5rem 0 1.5rem 4rem;
-	/*padding: 1.5rem 4rem 14rem 4rem;
-	background-color: #b3b3b3;*/
 }
-
 #profile {
 	background-color: #b3b3b3;
 	padding-bottom: 5rem;
 }
-
 .caption {
 	padding: 8rem 4rem 1rem 4rem;
 	font-family: Arial, Verdana, Helvetica, sans-serif;
 	font-size: 14px;
 }
-
 #profile2 {
 	padding-top: .7rem;
 }
 
+
+/*** Watches  + Clocks ***/
+
+
+#gallery {
+	padding-top: 3rem;
+
+}
+
+#gallery a{
+	text-decoration: none;
+	font-family: Garamond, serif;
+	font-size: 16px;
+}
+
+
+
 /*** Craft ***/
+
 
 #headline {
 	background-color: gray;
