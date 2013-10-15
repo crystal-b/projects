@@ -202,6 +202,10 @@ ul {
 /*** Craft ***/
 
 
+#lead img{
+	width: 100%;
+}
+
 #headline {
 	background-color: gray;
 	padding-top: 2rem;
