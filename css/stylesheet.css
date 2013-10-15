@@ -157,7 +157,7 @@ ul {
 }
 
 
-/*** Watches  + Clocks ***/
+/*** Watches + Clocks ***/
 
 
 #gallery {
@@ -188,6 +188,14 @@ ul {
 
 #gallery img {
 	padding: 0 2rem 4rem 0;
+}
+
+
+/*** Repairs ***/
+
+
+#center {
+	padding: 2rem 0 2rem 4.5rem;
 }
 
 
