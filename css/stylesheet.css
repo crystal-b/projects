@@ -94,6 +94,16 @@ ul {
 .bar li ul li:hover {
 	background-color: #999999 !important;
 }
+.current a{
+	background-color: #EEE8AA;
+	color: #000000;
+	font-style: bold;
+}
+.currentsub a{
+	background-color: #CDBE70;
+	color: #000000;
+	font-style: bold;
+}
 
 
 /*** Index ***/
