@@ -236,10 +236,28 @@ ul {
 	padding-bottom: 1.5rem;
 }
 
+#sidebar {
+	background-color: gray;
+	padding-bottom: 15rem;
+}
+
 #text li {
 	font-family: Garamond, serif;
 	font-size: 12px;
 }
+
+#button1 {
+	text-align: right;
+	padding-top: 3rem;
+	padding-right: 2rem;
+}
+
+#button3 {
+	text-align: left;
+	padding-top: 3rem;
+	padding-left: 2rem;
+}
+
 
 /*** Footer ***/
 
