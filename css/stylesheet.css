@@ -218,9 +218,10 @@ ul {
 
 #headline {
 	background-color: gray;
-	padding-top: 2rem;
+	padding-top: 1rem;
 	padding-bottom: 1.5rem;
-	padding-left: 1rem;
+	padding-left: 2rem;
+	padding-right: 7rem;
 }
 
 #video {
@@ -233,6 +234,11 @@ ul {
 	background-color: #FFFFFF;
 	padding-top: 3rem;
 	padding-bottom: 1.5rem;
+}
+
+#text li {
+	font-family: Garamond, serif;
+	font-size: 12px;
 }
 
 /*** Footer ***/
