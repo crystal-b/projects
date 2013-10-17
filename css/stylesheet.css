@@ -278,17 +278,20 @@ ul {
 	text-align: right;
 	padding-top: 3rem;
 	padding-right: 2rem;
+	padding-bottom: 7rem;
 }
 
 #button2 {
 	text-align: center;
 	padding-top: 3rem;
+	padding-bottom: 7rem;
 }
 
 #button3 {
 	text-align: left;
 	padding-top: 3rem;
 	padding-left: 2rem;
+	padding-bottom: 7rem;
 }
 
 #button img:hover {
