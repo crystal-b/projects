@@ -217,11 +217,17 @@ ul {
 }
 
 #headline {
-	background-color: gray;
+	background-color: #CCCCCC;
 	padding-top: 1rem;
 	padding-bottom: 1.5rem;
-	padding-left: 2rem;
-	padding-right: 7rem;
+}
+
+#headline h3{
+	font-size: 30px;
+}
+
+#headline h6{
+	font-size: 18px;
 }
 
 #video {
@@ -251,28 +257,17 @@ ul {
 	padding-bottom: 1rem;
 }
 
-#panels {
-	padding-top: 4rem;
-}
-
-#panels li a{
-	color: #000000;
-	font-size: 14px;
-}
-
-#panels li a:hover{
-	background-color: #FFFFFF;
+#panel {
+	padding-top: 2rem;
+	padding-right: 0rem;
 }
 
 .text {
-	color: #FFFFFF;
-	font-size: 18px;
-	padding-bottom: 1.5rem;
-	padding-top: 10.2rem;
-}
-
-.button {
-	padding-left: 2rem;
+	color: #000000;
+	font-size: 20px;
+	font-weight: bold;
+	padding-bottom: 1rem;
+	padding-top: 31rem;
 }
 
 .button a{
