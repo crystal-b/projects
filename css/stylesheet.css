@@ -246,6 +246,39 @@ ul {
 	font-size: 12px;
 }
 
+#teaser {
+	background-color: gray;
+	padding-bottom: 1rem;
+}
+
+#panels {
+	padding-top: 4rem;
+}
+
+#panels li a{
+	color: #000000;
+	font-size: 14px;
+}
+
+#panels li a:hover{
+	background-color: #FFFFFF;
+}
+
+.text {
+	color: #FFFFFF;
+	font-size: 18px;
+	padding-bottom: 1.5rem;
+	padding-top: 10.2rem;
+}
+
+.button {
+	padding-left: 2rem;
+}
+
+.button a{
+	color: #FFFFFF;
+}
+
 #button1 {
 	text-align: right;
 	padding-top: 3rem;
