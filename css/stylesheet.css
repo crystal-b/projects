@@ -312,4 +312,17 @@ ul {
 	color: #000000;
 }
 
+/*** 404 ***/
+
+#error {
+	background-color: #DCD9D9;
+}
+#error1 img {
+	padding-left: 5rem;
+	padding-top: 2rem;
+ }
+ #error2 {
+ 	padding-top: 4rem;
+ }
+
 
